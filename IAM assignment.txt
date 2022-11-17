@@ -1,0 +1,30 @@
+Q.1 What is need of IAM ?
+Ans. With AWS Identity and Access services , you can specify who or what can 
+access services and resources in AWS, centrally manage fine-gained permissions, and analyze 
+access to refine permissions across AWS.
+
+Q.2 If i am not a tech person, how will you define policies in IAM ?
+Ans. A policies is a permission that allows users, specifically IAM Identity (users,groups
+of users, or roles), to do something with the AWS resources.
+
+Q.3 Please define a scenerio in which you would like to create your on own IAM policy.
+Ans. To enable a user to call the API managing service, you must create an IAM policy for an
+IAM user, which controls access to the API Gateway entities, and then attach the policy to the
+IAM user.
+
+Q.4 Why do we prefer not using root account ?
+ Ans. A malicious or compromised "root" user can modify the application server executables or
+ operating system shared libraries thereby compromising the integritiy of the server and gain 
+ access to data that the server generates and attempts to control.
+ 
+Q.5 How to revoke policy for an IAM user ?
+Ans. 1. In the navigation pane, choose user groups, users, or roles.
+2. Choose the name of the user group or role with the policy that you want to delete.
+3. To delete an inline policy in user groups, choose delete. 
+4. If you are deleting a single inline policy in user groups , type the name of the policy and
+choose delete.
+
+Q.6 Can a single IAM user be a part of multiple policy via group and root ? How ?
+Ans. Yes , A user group can contain many users, and a user can belong to multiple user groups.
+You can assign IAM users to up to 10 groups. You can also attach up to 10 managed policies to 
+each group, for a maximum of 120 policies.
